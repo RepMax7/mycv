@@ -1,0 +1,235 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+ .right_side {
+    position: relative;
+    background: rgb(7, 77, 82);
+    padding: 40px;
+}
+
+.profileName{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.profileName h2 {
+  color: aliceblue;
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+h2:hover{
+    color: rgb(8, 8, 27);
+}
+
+.profileName h2 span {
+    
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contactInfo{
+    padding-top: 40px;
+    
+}
+
+.title
+{
+    color: aliceblue;
+    text-transform: 600;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    
+}
+
+.contactInfo ul li span{
+    color: aliceblue;
+    font-weight: 300;
+
+    
+}
+
+.education li {
+margin-bottom: 15px;
+}
+
+.education h4{
+    color: rgb(55, 112, 187);
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.education h3{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+.left_side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+
+.title2{
+    color: rgb(27, 27, 71);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgba(27, 27, 71);
+}
+
+ .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+ .year_company{
+    min-width: 150px;
+}
+
+ .year_company h5{
+    text-transform: uppercase;
+    color: rgb(141, 124, 103);
+    font-weight: 600;
+}
+
+ .text h4{
+    text-transform: uppercase;
+    color: rgb(23, 23, 88);
+    font-size: 16px;
+}
+
+.skills_container{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    display: grid;
+}
+
+.skills{
+
+    background-color: white;
+    width: 100%;
+    height: 75px;
+}
+
+.skills h2{
+    color: rgb(27, 27, 71);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.the_skills{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.name_of_the_skill{
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    display: grid;
+}
+
+.percentage{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+.first{
+    background-color:  rgb(46, 43, 43);
+    width: 90%;
+    height: 15px;
+    margin-top: 25px;
+}
+
+.after_first{
+    background-color: rgb(46, 43, 43);
+    width: 90%;
+    height: 15px;
+    margin-top: 85px;
+}
+
+.first div{
+    background-color: rgb(53, 85, 145);
+    height: 100%;
+    width: 95%;
+}
+
+.after_first div{
+    height: 100%;
+   width: 75%; 
+    background-color: rgb(53, 85, 145);
+}
